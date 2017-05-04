@@ -9,5 +9,10 @@
             "email": "suhdu@protonmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Breeze\\Doctrine\\": "src/"
+        }
+    }
 }
